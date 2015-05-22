@@ -137,4 +137,4 @@ if(fifthPrompt==="" || is(fifthPrompt)){
     fifthPrompt=prompt("Please do not leave blank and only use colors red, blue, green and yellow.\nType in your favorite color.");
 
 }
- */
+*/
