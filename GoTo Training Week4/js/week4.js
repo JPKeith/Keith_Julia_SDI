@@ -33,12 +33,15 @@ while(min==="" || isNaN(min)){
     //re-prompt the user with the same variable name
     min=prompt ("Please do not leave blank and only use numbers");
 
-if("min==="){
-    min=prompt ("Please do not leave blank.\nPlease type in a min number");
+if(min==="") {
+    min = prompt("Please do not leave blank.\nPlease type in a min number");
+}else if(isNAN(min)){
+    min=prompt("Please only use numbers ");
 
-}else if(isNaN(min)){
-    min=prompt ("Please only use numbers.\nPlease type in a min number");
+}
+
+
+
 
 }
 
-}
